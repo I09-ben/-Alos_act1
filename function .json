@@ -1,0 +1,5 @@
+request.open('GET','http://github/bd.json');
+request.responseType='json';
+request.send();
+nom_du_film[[0][M][0]]
+var nom_du_film=request.response;

@@ -1,0 +1,7 @@
+ 
+var unirest=require("unirest")
+var req = unirest("GET","http://localhost:3000/posts/10")
+req.headers({"cache-controle":"no-cache",})
+
+
+)
